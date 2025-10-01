@@ -1,5 +1,6 @@
 package org.example;
-
+@Entity
+@DiscriminatorValue("DVR")    
 public class Developer extends Employee
 {
     private String programmingLanguage;
