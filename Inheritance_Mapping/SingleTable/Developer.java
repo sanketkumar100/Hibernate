@@ -12,4 +12,11 @@ public class Developer extends Employee
     {
         this.programmingLanguage=programmingLanguage;
     }
+        public void setProgrammingLanguage(String programmingLanguage) {
+        this.programmingLanguage = programmingLanguage;
+    }
+
+    public String getProgrammingLanguage() {
+        return programmingLanguage;
+    }
 }
