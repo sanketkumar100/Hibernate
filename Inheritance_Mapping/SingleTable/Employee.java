@@ -3,7 +3,8 @@ package org.example;
 import jakarta.persistence.*;
 
 @Entity
-@Inheritance(strategy = InheritanceType.JOINED)
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@DiscriminatorColumn(name="emp_type")
 public class Employee
 {
     @Id
